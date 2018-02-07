@@ -1,4 +1,4 @@
-BitShares Core
+iHomeCoin Core
 ==============
 * [Getting Started](#getting-started)
 * [Support](#support)

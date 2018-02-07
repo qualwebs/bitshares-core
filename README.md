@@ -8,14 +8,14 @@ iHomeCoin Core
 * [License](#license)
 
 iHomeCoin Core is the iHomeCoin blockchain implementation and command-line interface.
-The web wallet is [iHomeCoin UI](https://github.com/iHomeCoin/iHomeCoin-ui).
+The web wallet is [iHomeCoin UI](https://github.com/qualwebs/iHomeCoin-core-ui).
 
 Visit [iHomeCoin.com](https://iHomeCoin.com/) to learn about iHomeCoin and join the community at [iHomeCoinTalk.org](https://iHomeCointalk.org/).
 
 **NOTE:** The official iHomeCoin git repository location, default branch, and submodule remotes were recently changed. Existing
 repositories can be updated with the following steps:
 
-    git remote set-url origin https://github.com/iHomeCoin/iHomeCoin-core.git
+    git remote set-url origin https://github.com/qualwebs/iHomeCoin-core.git
     git checkout master
     git remote set-head origin --auto
     git pull
@@ -25,7 +25,7 @@ repositories can be updated with the following steps:
 Getting Started
 ---------------
 Build instructions and additional documentation are available in the
-[wiki](https://github.com/iHomeCoin/iHomeCoin-core/wiki).
+[wiki](https://github.com/qualwebs/iHomeCoin-core/wiki).
 
 We recommend building on Ubuntu 16.04 LTS, and the build dependencies may be installed with:
 
@@ -34,7 +34,7 @@ We recommend building on Ubuntu 16.04 LTS, and the build dependencies may be ins
 
 To build after all dependencies are installed:
 
-    git clone https://github.com/iHomeCoin/iHomeCoin-core.git
+    git clone https://github.com/qualwebs/iHomeCoin-core.git
     cd iHomeCoin-core
     git checkout <LATEST_RELEASE_TAG>
     git submodule update --init --recursive
